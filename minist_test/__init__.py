@@ -8,7 +8,7 @@ if __name__ == '__main__':
 
     mnist_idx =100
 
-    for row in train_images['mnist_idx']:
+    for row in train_images[mnist_idx]:
         for col in row:
             print('%10f'%col,end='')
         print('\n')
